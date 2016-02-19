@@ -10,7 +10,7 @@ namespace Capa_Datos
 {
     public class Persistencia_Datos
     {
-        public static SqlConnection oSqlConnection = null;
+        private static SqlConnection oSqlConnection = null;
         private static Persistencia_Datos oPersistencia = null;
 
         private Persistencia_Datos()
