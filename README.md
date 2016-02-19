@@ -1,2 +1,0 @@
-# Calidad
-Tarea de Calidad
