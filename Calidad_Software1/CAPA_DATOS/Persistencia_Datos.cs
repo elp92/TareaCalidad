@@ -13,7 +13,7 @@ namespace Capa_Datos
         private static SqlConnection oSqlConnection = null;
         private static Persistencia_Datos oPersistencia = null;
 
-        public Persistencia_Datos()
+        private Persistencia_Datos()
         {
 
             oSqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["connstr"].ConnectionString);
