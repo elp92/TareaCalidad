@@ -12,6 +12,7 @@ namespace Calidad_Software1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            txtNombre_Usuario.Text = Environment.UserName;
             if (Session["nombre_usuario"] != null)
             {
                panelLogin.Visible = false;

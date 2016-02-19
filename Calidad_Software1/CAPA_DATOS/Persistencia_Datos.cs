@@ -27,11 +27,11 @@ namespace Capa_Datos
             switch (Environment.UserName)
             {
                 case "LOPEZPES":
-                    connection = ConfigurationManager.ConnectionStrings["connstrGabriel"].ConnectionString;
+                    connection = ConfigurationManager.ConnectionStrings["connstrEsteban"].ConnectionString;
                     break;
 
                 case "Gabriel":
-                    connection = ConfigurationManager.ConnectionStrings["connstrEsteban"].ConnectionString;
+                    connection = ConfigurationManager.ConnectionStrings["connstrGabriel"].ConnectionString;
                     break;
             }
 

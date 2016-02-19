@@ -5,7 +5,7 @@
     <div class="jumbotron">
         <h1>Inicio de Sesión</h1>
         <p class="lead">Inicie sesión para ingresar al sistema.</p>
-
+        
         <div class="table-responsive">  
             <asp:Panel ID="panelLogin" runat="server">
   <table class="table">

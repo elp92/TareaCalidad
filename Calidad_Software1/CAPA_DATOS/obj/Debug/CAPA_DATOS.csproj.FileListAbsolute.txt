@@ -66,3 +66,28 @@ C:\Users\Gabriel\Documents\GitHub\Calidad\Calidad\Calidad_Software1\CAPA_DATOS\b
 C:\Users\Gabriel\Documents\GitHub\Calidad\Calidad\Calidad_Software1\CAPA_DATOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Gabriel\Documents\GitHub\Calidad\Calidad\Calidad_Software1\CAPA_DATOS\obj\Debug\CAPA_DATOS.dll
 C:\Users\Gabriel\Documents\GitHub\Calidad\Calidad\Calidad_Software1\CAPA_DATOS\obj\Debug\CAPA_DATOS.pdb
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\csc.exe
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis (1).dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.CodeAnalysis (1).dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.VisualBasic.Core (1).targets
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\System.Collections.Immutable (1).dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\vbc.exe
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\VBCSCompiler.exe
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\VBCSCompiler.exe (1).config
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\CAPA_DATOS.dll.config
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\CAPA_DATOS.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\CAPA_DATOS.pdb
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\obj\Debug\CAPA_DATOS.csprojResolveAssemblyReference.cache
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\obj\Debug\CAPA_DATOS.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CAPA_DATOS\obj\Debug\CAPA_DATOS.pdb
