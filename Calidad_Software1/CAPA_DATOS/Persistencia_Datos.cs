@@ -20,13 +20,13 @@ namespace Capa_Datos
             oSqlConnection.Open();
         }
 
-        public static string getConnection() {
+        public string getConnection() {
 
             string connection = "";
 
             switch (Environment.UserName)
             {
-                case "LOPEZPES":
+                case "lopezpes":
                     connection = ConfigurationManager.ConnectionStrings["connstrEsteban"].ConnectionString;
                     break;
 

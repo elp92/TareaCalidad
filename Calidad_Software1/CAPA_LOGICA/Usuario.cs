@@ -40,7 +40,7 @@ namespace Capa_Logica
             {
 
                 //cadena conexion
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["connstr"].ToString()))
+                using (SqlConnection conn = new SqlConnection(Persistencia_Datos.getInstance().getConnection()))
                 {
                     conn.Open();//abrimos conexion
 
@@ -86,7 +86,7 @@ namespace Capa_Logica
             {
 
                 //cadena conexion
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["connstr"].ToString()))
+                using (SqlConnection conn = new SqlConnection(Persistencia_Datos.getInstance().getConnection()))
                 {
                     conn.Open();//abrimos conexion
 
@@ -124,7 +124,7 @@ namespace Capa_Logica
             {
 
                 //cadena conexion
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["connstr"].ToString()))
+                using (SqlConnection conn = new SqlConnection(Persistencia_Datos.getInstance().getConnection()))
                 {
                     conn.Open();//abrimos conexion
 
@@ -153,7 +153,7 @@ namespace Capa_Logica
 
                 string correo = null;
                 //cadena conexion
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["connstr"].ToString()))
+                using (SqlConnection conn = new SqlConnection(Persistencia_Datos.getInstance().getConnection()))
                 {
                     conn.Open();//abrimos conexion
 
@@ -185,7 +185,7 @@ namespace Capa_Logica
             {
 
                 //cadena conexion
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Connection_Login"].ToString()))
+                using (SqlConnection conn = new SqlConnection(Persistencia_Datos.getInstance().getConnection()))
                 {
                     conn.Open();//abrimos conexion
 
@@ -219,7 +219,7 @@ namespace Capa_Logica
             {
 
                 //cadena conexion
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Connection_Login"].ToString()))
+                using (SqlConnection conn = new SqlConnection(Persistencia_Datos.getInstance().getConnection()))
                 {
                     conn.Open();//abrimos conexion
 
@@ -262,7 +262,7 @@ namespace Capa_Logica
                 int valor = 0;
 
                 //cadena conexion
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Connection_Login"].ToString()))
+                using (SqlConnection conn = new SqlConnection(Persistencia_Datos.getInstance().getConnection()))
                 {
                     conn.Open();//abrimos conexion
 
