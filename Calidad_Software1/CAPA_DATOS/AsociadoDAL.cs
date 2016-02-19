@@ -49,6 +49,18 @@ namespace CAPA_DATOS
                 string consString = Persistencia_Datos.getInstance().getConnection();
                 using (SqlConnection con = new SqlConnection(consString))
                 {
+                    using (SqlCommand cmd = new SqlCommand("Update_Asociados"))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Connection = con;
+                        cmd.Parameters.AddWithValue("@tblAsociados", dtExcelData);
+                        con.Open();
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                        
+                    }
+
+                    /*
                     using (SqlBulkCopy sqlBulkCopy = new SqlBulkCopy(con))
                     {
                         //Set the database table name
@@ -57,11 +69,12 @@ namespace CAPA_DATOS
                         //[OPTIONAL]: Map the Excel columns with that of the database table
                         /*sqlBulkCopy.ColumnMappings.Add("Id", "PersonId");
                         sqlBulkCopy.ColumnMappings.Add("Name", "Name");
-                        sqlBulkCopy.ColumnMappings.Add("Salary", "Salary");*/
+                        sqlBulkCopy.ColumnMappings.Add("Salary", "Salary");
                         con.Open();
                         sqlBulkCopy.WriteToServer(dtExcelData);
                         con.Close();
                     }
+                */
                 }
             }
 

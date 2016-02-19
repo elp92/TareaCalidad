@@ -43,11 +43,11 @@ namespace Calidad_Software1
                         Asociado asoc = new Asociado();
 
                         asoc.insertarAsociado(cargarExcel.FileName, extension, excelPath);
-                        lblCargar.Text = "Archivo Cargado";
+                        lblCargar.Text = "Archivo Cargado.";
                     }
                     catch (Exception ex)
                     {
-                        string msj = "No fue posible cargar el archivo.";
+                        string msj = "No fue posible cargar el archivo. Inténtelo de nuevo.";
                         if (ex.Message.Contains("does not allow DBNull.Value"))
                         {
                             msj = "El archivo contiene filas en blanco, favor removerlas antes de proceder.";
