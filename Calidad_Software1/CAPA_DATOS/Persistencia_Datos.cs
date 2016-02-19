@@ -15,10 +15,27 @@ namespace Capa_Datos
 
         private Persistencia_Datos()
         {
-
-            oSqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["connstr"].ConnectionString);
+            oSqlConnection = new SqlConnection(getConnection());
                 //ConfigurationManager.con .ConnectionStrings["Connection_Login"].ConnectionString);
             oSqlConnection.Open();
+        }
+
+        public static string getConnection() {
+
+            string connection = "";
+
+            switch (Environment.UserName)
+            {
+                case "LOPEZPES":
+                    connection = ConfigurationManager.ConnectionStrings["connstrGabriel"].ConnectionString;
+                    break;
+
+                case "Gabriel":
+                    connection = ConfigurationManager.ConnectionStrings["connstrEsteban"].ConnectionString;
+                    break;
+            }
+
+            return connection;
         }
 
         /// <summary>
