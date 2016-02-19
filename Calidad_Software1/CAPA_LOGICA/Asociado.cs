@@ -102,11 +102,11 @@ namespace CAPA_LOGICA
             telefono = telefonoP;
         }
 
-        public string insertarAsociado(string fileName) {
-
+        public string insertarAsociado(string fileName, string extension, string excelPath)
+        {
             AsociadoDAL asocDal = new AsociadoDAL();
 
-            asocDal.Insertar(fileName);
+            asocDal.Insertar(fileName, extension, excelPath);
 
             return "";
         }
