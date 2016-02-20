@@ -16,11 +16,12 @@ namespace Capa_Datos
         private Persistencia_Datos()
         {
             oSqlConnection = new SqlConnection(getConnection());
-                //ConfigurationManager.con .ConnectionStrings["Connection_Login"].ConnectionString);
+            //ConfigurationManager.con .ConnectionStrings["Connection_Login"].ConnectionString);
             oSqlConnection.Open();
         }
 
-        public string getConnection() {
+        public string getConnection()
+        {
 
             string connection = "";
 
@@ -53,21 +54,8 @@ namespace Capa_Datos
 
         public int ejecutarActualizacionSql(SqlCommand oCommand)
         {
-            try
-            {
-                oCommand.Connection = oSqlConnection;
-                return oCommand.ExecuteNonQuery();
-
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-
-
-
-
+            oCommand.Connection = oSqlConnection;
+            return oCommand.ExecuteNonQuery();
         }
 
 

@@ -16,11 +16,11 @@ namespace Calidad_Software1
             if (IsPostBack)
             {
                 Boolean fileOK = false;
-                String path = "C:\\Archivos\\";
+                String fileExtension = "";
                 if (cargarExcel.HasFile)
                 {
-                    String fileExtension =
-                        System.IO.Path.GetExtension(cargarExcel.FileName).ToLower();
+
+                    fileExtension = Path.GetExtension(cargarExcel.FileName).ToLower();
                     String[] allowedExtensions =
                         {".xls", ".xlsx"};
                     for (int i = 0; i < allowedExtensions.Length; i++)
@@ -38,11 +38,10 @@ namespace Calidad_Software1
                     {
                         string excelPath = Server.MapPath("~/Archivos/") + Path.GetFileName(cargarExcel.PostedFile.FileName);
                         cargarExcel.SaveAs(excelPath);
-                        string extension = Path.GetExtension(cargarExcel.PostedFile.FileName);
 
                         Asociado asoc = new Asociado();
 
-                        asoc.insertarAsociado(cargarExcel.FileName, extension, excelPath);
+                        asoc.insertarAsociado(cargarExcel.FileName, fileExtension, excelPath);
                         lblCargar.Text = "Archivo Cargado.";
                     }
                     catch (Exception ex)

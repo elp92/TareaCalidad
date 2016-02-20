@@ -24,3 +24,4 @@ C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnity
 C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\obj\Debug\CapaDatosUnityTest.csprojResolveAssemblyReference.cache
 C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\obj\Debug\CapaDatosUnityTest.dll
 C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\obj\Debug\CapaDatosUnityTest.pdb
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\CapaDatosUnityTest.dll.config

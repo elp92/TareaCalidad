@@ -24,7 +24,8 @@ namespace CAPA_DATOS
                     conString = ConfigurationManager.ConnectionStrings["Excel03ConString"].ConnectionString;
                     break;
                 case ".xlsx": //Excel 07 or higher
-                    conString = ConfigurationManager.ConnectionStrings["Excel07+ConString"].ToString();
+                    conString = //ConfigurationManager.ConnectionStrings.Count.ToString();
+                        ConfigurationManager.ConnectionStrings["Excel07+ConString"].ConnectionString;
                     break;
 
             }
@@ -34,11 +35,6 @@ namespace CAPA_DATOS
                 excel_con.Open();
                 string sheet1 = excel_con.GetOleDbSchemaTable(OleDbSchemaGuid.Tables, null).Rows[0]["TABLE_NAME"].ToString();
                 DataTable dtExcelData = new DataTable();
-
-                //[OPTIONAL]: It is recommended as otherwise the data will be considered as String by default.
-                /*dtExcelData.Columns.AddRange(new DataColumn[3] { new DataColumn("Id", typeof(int)),
-                new DataColumn("Name", typeof(string)),
-                new DataColumn("Salary",typeof(decimal)) });*/
 
                 using (OleDbDataAdapter oda = new OleDbDataAdapter("SELECT * FROM [" + sheet1 + "]", excel_con))
                 {
@@ -63,6 +59,12 @@ namespace CAPA_DATOS
                 }
             }
 
+
+
+            //[OPTIONAL]: It is recommended as otherwise the data will be considered as String by default.
+            /*dtExcelData.Columns.AddRange(new DataColumn[3] { new DataColumn("Id", typeof(int)),
+            new DataColumn("Name", typeof(string)),
+            new DataColumn("Salary",typeof(decimal)) });*/
 
             /*
             using (SqlBulkCopy sqlBulkCopy = new SqlBulkCopy(con))
