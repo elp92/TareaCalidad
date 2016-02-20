@@ -79,8 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsociadoDAL.cs" />
-    <Compile Include="Database.cs" />
-    <Compile Include="DatabaseFactory.cs" />
     <Compile Include="Persistencia_Datos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

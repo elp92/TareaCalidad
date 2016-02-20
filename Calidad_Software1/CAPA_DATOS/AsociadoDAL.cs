@@ -60,26 +60,25 @@ namespace CAPA_DATOS
                         con.Close();
                         
                     }
-
-                    /*
-                    using (SqlBulkCopy sqlBulkCopy = new SqlBulkCopy(con))
-                    {
-                        //Set the database table name
-                        sqlBulkCopy.DestinationTableName = "dbo.ASOCIADO";
-
-                        //[OPTIONAL]: Map the Excel columns with that of the database table
-                        /*sqlBulkCopy.ColumnMappings.Add("Id", "PersonId");
-                        sqlBulkCopy.ColumnMappings.Add("Name", "Name");
-                        sqlBulkCopy.ColumnMappings.Add("Salary", "Salary");
-                        con.Open();
-                        sqlBulkCopy.WriteToServer(dtExcelData);
-                        con.Close();
-                    }
-                */
                 }
             }
 
 
+            /*
+            using (SqlBulkCopy sqlBulkCopy = new SqlBulkCopy(con))
+            {
+                //Set the database table name
+                sqlBulkCopy.DestinationTableName = "dbo.ASOCIADO";
+
+                //[OPTIONAL]: Map the Excel columns with that of the database table
+                /*sqlBulkCopy.ColumnMappings.Add("Id", "PersonId");
+                sqlBulkCopy.ColumnMappings.Add("Name", "Name");
+                sqlBulkCopy.ColumnMappings.Add("Salary", "Salary");
+                con.Open();
+                sqlBulkCopy.WriteToServer(dtExcelData);
+                con.Close();
+            }
+        */
 
             /*     string conex = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Archivos\\" + fileName + ";Extended Properties=\"Excel 8.0;HDR=Yes;IMEX=1\";";
 
