@@ -1,0 +1,26 @@
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\csc.exe
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis (1).dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.CodeAnalysis (1).dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.VisualBasic.Core (1).targets
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\System.Collections.Immutable (1).dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\vbc.exe
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\VBCSCompiler.exe (1).config
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\CapaDatosUnityTest.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\CapaDatosUnityTest.pdb
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\CAPA_DATOS.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\CAPA_DATOS.pdb
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\obj\Debug\CapaDatosUnityTest.csprojResolveAssemblyReference.cache
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\obj\Debug\CapaDatosUnityTest.dll
+C:\Users\lopezpes\Documents\GitHub\TareaCalidad\Calidad_Software1\CapaDatosUnityTest\obj\Debug\CapaDatosUnityTest.pdb
