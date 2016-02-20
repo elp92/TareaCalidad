@@ -55,7 +55,8 @@ namespace CAPA_DATOS
                         cmd.Connection = con;
                         cmd.Parameters.AddWithValue("@tblAsociados", dtExcelData);
                         con.Open();
-                        cmd.ExecuteNonQuery();
+                        Persistencia_Datos.getInstance().ejecutarActualizacionSql(cmd);
+                        //cmd.ExecuteNonQuery();
                         con.Close();
                         
                     }
